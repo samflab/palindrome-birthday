@@ -82,7 +82,13 @@ span,
   display: none;
 }
 
-#output{
+.header > h1,
+.header > p,
+.header > a {
+  margin-left: 3rem;
+}
+
+#output {
   border: 5px solid rgb(255, 217, 0);
   padding: 2rem;
   font-size: 1.2rem;
@@ -115,4 +121,9 @@ input {
   .repo {
     display: none;
   }
+  .header > h1,
+.header > p,
+.header > a{
+  margin-left: 0px;
+}
 }
