@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0 auto;
   background-color: rgba(255, 217, 0, 0.541);
@@ -122,8 +125,8 @@ input {
     display: none;
   }
   .header > h1,
-.header > p,
-.header > a{
-  margin-left: 0px;
-}
+  .header > p,
+  .header > a {
+    margin-left: 0px;
+  }
 }
