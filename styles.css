@@ -1,0 +1,104 @@
+body {
+  margin: 0 auto;
+  background-color: rgba(255, 217, 0, 0.541);
+  /* background: rgb(170, 169, 169); */
+  background-blend-mode: multiply;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  color: white;
+  padding: 1rem;
+  border-radius: 0px 0px 50px 50px;
+  background: url("https://images.unsplash.com/photo-1506784242126-2a0b0b89c56a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1048&q=80"),
+    rgb(252, 247, 207);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+.header > p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-style: italic;
+
+}
+span, .repo  {
+  color: rgb(255, 217, 0);
+}
+
+.header > span{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.repo{
+  float: right;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 99px;
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.836);
+  background-color: rgb(255, 217, 0);
+  font-weight: 700;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+  box-shadow: #0000007d -5px 4px 8px 0px;
+}
+
+.button:hover {
+  color: rgb(255, 217, 0);
+  background-color: white;
+}
+
+.form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > h2 {
+  color: rgba(0, 0, 0, 0.836);
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.form > p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+input {
+  padding: 1rem;
+  border-radius: 99px;
+  outline: none;
+  font-size: 0.9rem;
+  border: rgb(255, 217, 0) 5px solid;
+  background-color: rgb(248, 238, 183);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 960px) {
+  .header {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .header > p{
+    background-color: rgba(0, 0, 0, 0.13);
+  }
+  .repo{
+    display: none;
+  }
+  
+}
