@@ -21,17 +21,17 @@ body {
   font-weight: 600;
   font-size: 1.2rem;
   font-style: italic;
-
 }
-span, .repo  {
+span,
+.repo {
   color: rgb(255, 217, 0);
 }
 
-.header > span{
+.header > span {
   font-size: 1rem;
   font-weight: 600;
 }
-.repo{
+.repo {
   float: right;
   font-size: 1.2rem;
   padding-right: 1rem;
@@ -76,6 +76,21 @@ span, .repo  {
   font-size: 1.1rem;
   color: rgba(0, 0, 0, 0.836);
 }
+#gif {
+  margin-top: 1rem;
+  border-radius: 50%;
+  display: none;
+}
+
+#output{
+  border: 5px solid rgb(255, 217, 0);
+  padding: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.836);
+  background-color: rgb(248, 238, 183);
+  display: none;
+}
 
 input {
   padding: 1rem;
@@ -93,12 +108,11 @@ input {
   }
 }
 
-@media screen and (max-width:960px) {
-  .header > p{
+@media screen and (max-width: 960px) {
+  .header > p {
     background-color: rgba(0, 0, 0, 0.13);
   }
-  .repo{
+  .repo {
     display: none;
   }
-  
 }
